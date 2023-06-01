@@ -1,10 +1,10 @@
 import React from "react";
 
-const Register = () => {
+const Login = () => {
   return (
     <main className="form-signin w-25 m-auto mt-5 py-5">
       <form>
-        <h1 className=" mb-3 fw-normal text-center">Please Sign Up</h1>
+        <h1 className=" mb-3 fw-normal text-center">Please sign in</h1>
 
         <div className="form-floating mt-2">
           <input
@@ -15,15 +15,7 @@ const Register = () => {
           />
           <label htmlFor="floatingInput">Email address</label>
         </div>
-        <div className="form-floating mt-2">
-          <input
-            type="text"
-            className="form-control"
-            id="floatingInput"
-            placeholder="UserName"
-          />
-          <label htmlFor="floatingInput">User Name</label>
-        </div>
+
         <div className="form-floating mt-2">
           <input
             type="password"
@@ -53,4 +45,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Login;
